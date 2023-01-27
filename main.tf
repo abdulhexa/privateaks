@@ -1,7 +1,7 @@
 #main.tf
 
 data "http" "aksc_release" {
-  url = "https://github.com/abdulhexa/privateaks/main.json"
+  url = "https://github.com/Azure/AKS-Construction/releases/download/0.9.8/main.jsonhttps://github.com/abdulhexa/privateaks/main.json"
   request_headers = {
     Accept = "application/json"
     User-Agent = "request module"
