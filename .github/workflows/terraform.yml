@@ -30,13 +30,6 @@ jobs:
       with:
         cli_config_credentials_token: ${{ secrets.TF_API_TOKEN }}
         
-terraform fmt
-terraform init
-terraform validate
-terraform plan -out main.tfplan
-terraform apply main.tfplan
-terraform output
-
     # Checks that all Terraform configuration files adhere to a canonical format
     - name: Terraform Format
       run: terraform fmt
