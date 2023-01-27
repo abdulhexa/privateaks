@@ -2,7 +2,7 @@
 
 variable resourceGroupName {
   type=string
-  default="az-k8s-2axx-rg"
+  default="az-k8s-2axx-rg1"
 }
 variable location {
   type=string
